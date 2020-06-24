@@ -9,9 +9,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Accord.Math;
-using Hypothesis_tester_core;
 using Normal = Hypothesis_tester_core.Normal;
 using Binomial = Hypothesis_tester_core.Binomial;
+using Hypothesis_tester_core;
+
 
 namespace Hypothesis_tester_form
 {
