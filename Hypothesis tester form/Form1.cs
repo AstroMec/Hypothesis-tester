@@ -8,11 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Accord.Math;
+using Hypothesis_tester_core;
 using Normal = Hypothesis_tester_core.Normal;
 using Binomial = Hypothesis_tester_core.Binomial;
-using Hypothesis_tester_core;
-
 
 namespace Hypothesis_tester_form
 {
@@ -116,10 +114,12 @@ namespace Hypothesis_tester_form
             try
             {
                 if (sampleData.Enabled)
+                {
                     Data = sampleData.Text.Split(',', ';').Select(s => double.Parse(s)).ToArray();
 
-                if (Data.Length < 2)
-                    throw new ApplicationException();
+                    if (Data.Length < 2)
+                        throw new ApplicationException();
+                }
 
 
 

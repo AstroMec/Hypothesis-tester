@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypothesis tester form", "H
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Hypothesis tester setup", "Hypothesis tester setup\Hypothesis tester setup.vdproj", "{E3BA60C9-EB2D-485E-AEC8-70D9EEB36D9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypothesis tester core", "Hypothesis tester core\Hypothesis tester core.csproj", "{820BE628-53DE-46DF-9975-95934C025AFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hypothesis tester core", "Hypothesis tester core\Hypothesis tester core.csproj", "{820BE628-53DE-46DF-9975-95934C025AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypothesis tester new", "Hypothesis tester new\Hypothesis tester new.csproj", "{D0B11E06-82FF-47CF-A00D-24816BF9AF4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{820BE628-53DE-46DF-9975-95934C025AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{820BE628-53DE-46DF-9975-95934C025AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{820BE628-53DE-46DF-9975-95934C025AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B11E06-82FF-47CF-A00D-24816BF9AF4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B11E06-82FF-47CF-A00D-24816BF9AF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B11E06-82FF-47CF-A00D-24816BF9AF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B11E06-82FF-47CF-A00D-24816BF9AF4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

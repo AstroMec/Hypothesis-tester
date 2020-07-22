@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Hypothesis_tester_core_new
+namespace Hypothesis_tester_core
 {
 	public static class Binomial
 	{

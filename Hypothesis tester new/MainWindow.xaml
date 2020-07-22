@@ -1,0 +1,43 @@
+﻿<Window x:Class="Hypothesis_tester_new.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hypothesis_tester_new"
+        mc:Ignorable="d"
+        Title="Hypothesis Tester" Height="555" Width="877" Loaded="Window_Loaded" WindowState="Maximized">
+    <TabControl>
+        <TabItem Header="Binomial">
+            <TabItem.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FFD2D2D2" Offset="1"/>
+                </LinearGradientBrush>
+            </TabItem.Background>
+            <Grid Background="#FF292424">
+                <TextBox x:Name="binP" HorizontalAlignment="Left" Margin="59,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57" Height="24" InputScope="Number"/>
+                <Label Content="H0: p =" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White" Height="24" Width="49" FontFamily="Cambria Math" FontStyle="Italic">
+                    <Label.Style>
+                        <Style/>
+                    </Label.Style>
+                </Label>
+                <Label Content="H1: p" HorizontalAlignment="Left" Margin="10,48,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Cambria Math" FontStyle="Italic"/>
+                <ComboBox x:Name="alternateHypoType" HorizontalAlignment="Left" Margin="48,50,0,0" VerticalAlignment="Top" Width="63" Height="21" FontFamily="Cambria Math" FontStyle="Normal">
+                    <ComboBoxItem Content="&lt;" Tag="lt"/>
+                    <ComboBoxItem Content="&gt;" Tag="gt"/>
+                    <ComboBoxItem Content="≠" Tag="neq"/>
+                </ComboBox>
+                <Label x:Name="binPLbl" Content="p" HorizontalAlignment="Left" Margin="120,48,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Cambria Math" FontStyle="Italic"/>
+                <WindowsFormsHost x:Name="WinForm" HorizontalAlignment="Left" Height="225" Margin="121,168,0,0" VerticalAlignment="Top" Width="271"/>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Normal">
+            <Grid Background="#FFE5E5E5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="18*"/>
+                    <ColumnDefinition Width="379*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

@@ -4,7 +4,7 @@ using Accord.Math;
 using Accord.Statistics.Distributions.Univariate;
 using NumSharp;
 
-namespace Hypothesis_tester_core_new
+namespace Hypothesis_tester_core
 {
 	public static class Normal
 	{
